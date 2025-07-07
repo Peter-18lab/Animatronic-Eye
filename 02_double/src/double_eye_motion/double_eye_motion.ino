@@ -4,7 +4,7 @@
 //Servo Connection Pins, Left Eye, then Right Eye (Left Right, Up Down, Open Close) 
 // The order of left and right is important, and it it taken from the robots perspective (use the linkage labels for reference)
 Eyes Eyes(10,9,3,
-          14,6,5);
+          13,6,5);
 
 void setup() {
   Serial.begin(9600);
